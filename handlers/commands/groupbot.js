@@ -1,12 +1,10 @@
 let cap = `Join Group Bot untuk info ter-update
 
-• *Telegram Channel* : https://t.me/info_mg
-• *WhatsApp Group 1* : https://chat.whatsapp.com/KSupzi0Ez28AxNkViVaJfy
-• *WhatsApp Group 2* : https://chat.whatsapp.com/DJFe116CDyb26pb2pYDoy2
+• *WhatsApp Group* : https://chat.whatsapp.com/BLPOAP20ehx9R1wNSNpEcp
 `
 const buttonsDefault = [
     { urlButton: { displayText: `🛎 Telegram Bot`, url: `https://t.me/tikdl_bot` } },
-    { urlButton: { displayText: `💈 Instagram`, url: 'https://www.instagram.com/mg.bot' } },
+    { urlButton: { displayText: `💈 Instagram`, url: 'https://www.instagram.com/lorddimas_' } },
 ]
 
 module.exports = {
