@@ -9,15 +9,15 @@ Bot ini membutuhkan server agar bisa on 24 jam dan memproses request kamu dengan
 Total biaya yang diperlukan adalah kurang lebih 150K per bulan :)
 
 *E-Wallet :*
-[ 085236189413 ] - A.N *Muhamad Ristiyanto*
+[ 081228345749 ] - A.N *Dimas ts*
 - DANA | OVO | GOPAY | SHOPEEPAY | LinkAja
 
 atau juga bisa via QRIS jika akun e-wallet kamu belum upgrade ke premium
 `
         const btn = [
-            { urlButton: { displayText: `😊 Saweria`, url: `https://saweria.co/masgimenz` } },
+            { urlButton: { displayText: `😊 Trakteer`, url: `https://trakteer.id/dimas-ts-gl49x` } },
             { quickReplyButton: { displayText: `QRIS`, id: `${prefix}qris` } },
         ]
-        client.sendMessage(m.chat, { text: caption, footer: `© 2020 - @mg.bot`, templateButtons: btn }, { quoted: m })
+        client.sendMessage(m.chat, { text: caption, footer: `© 2020 - @lorddimas_`, templateButtons: btn }, { quoted: m })
     }
 }

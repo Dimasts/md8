@@ -37,7 +37,7 @@ module.exports = {
         const btn = [
             { quickReplyButton: { displayText: `🧪 Features`, id: `${prefix}menu` } },
             { quickReplyButton: { displayText: `🧪 Group Bot`, id: `${prefix}groupbot` } },
-            { urlButton: { displayText: `🎨 Instagram`, url: `https://www.instagram.com/mg.bot` } },
+            { urlButton: { displayText: `🎨 Instagram`, url: `https://www.instagram.com/lorddimas_` } },
         ]
         client.sendMessage(m.chat, { text, footer: global.footer, templateButtons: btn }, { quoted: m })
     }
