@@ -18,13 +18,13 @@ module.exports = {
                 for (let v of chatsJid) {
                     await delay(5000)
                     let ms = m.quoted ? m.getQuotedObj() : m
-                    await client.copyNForward(v, client.cMod(v, ms, `📢 *Mg Bot Broadcast*\n\n${args.join(' ')}\n\n#${chatsJid.indexOf(v) + 1}`, client.user.id), true)
+                    await client.copyNForward(v, client.cMod(v, ms, `📢 *Bot Broadcast*\n\n${args.join(' ')}\n\n#${chatsJid.indexOf(v) + 1}`, client.user.id), true)
                 }
                 m.reply(`Broadcasted to *${chatsJid.length}* chats`)
             } else {
                 for (let v of chatsJid) {
                     await delay(5000)
-                    await client.sendMessage(v, { text: `📢 *Mg Bot Broadcast*\n\n${args.join(' ')}\n\n#${chatsJid.indexOf(v) + 1}` }, { sendEphemeral: true })
+                    await client.sendMessage(v, { text: `📢 *Bot Broadcast*\n\n${args.join(' ')}\n\n#${chatsJid.indexOf(v) + 1}` }, { sendEphemeral: true })
                 }
                 m.reply(`Broadcasted to *${chatsJid.length}* chats`)
             }
