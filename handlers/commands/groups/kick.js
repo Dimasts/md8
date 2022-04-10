@@ -4,7 +4,7 @@ const { parseMention } = require("../../../lib/function");
 module.exports = {
     cmd: ['kick'],
     help: ['kick'],
-    startsWith: ['-'],
+    startsWith: ['--'],
     args: ['@user, @user', 'reply msg'],
     tags: ['groups'],
     group: true,
